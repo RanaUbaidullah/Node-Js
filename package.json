@@ -2,6 +2,7 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "First project",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/RanaUbaidullah/Node-Js/issues"
   },
-  "homepage": "https://github.com/RanaUbaidullah/Node-Js#readme"
+  "homepage": "https://github.com/RanaUbaidullah/Node-Js#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.0.1",
+    "one-liner-joke": "^1.2.2"
+  }
 }
